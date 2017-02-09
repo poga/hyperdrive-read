@@ -1,6 +1,6 @@
 {
   "name": "hyperdrive-read",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fs.read for hyperdrive",
   "main": "index.js",
   "scripts": {
