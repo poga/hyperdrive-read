@@ -2,6 +2,8 @@
 
 Read data from a file in a hyperdrive archive. Provide the same interface as `fs.read`
 
+`npm i hyperdrive-read`
+
 ## Usage
 
 ```js
