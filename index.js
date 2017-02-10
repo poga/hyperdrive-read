@@ -3,7 +3,6 @@ module.exports = function (archive, entry, buffer, offset, length, position, cb)
   var cursor = archive.createByteCursor(entry, {start: position, end: position + length})
   var temp = new Buffer(0)
   cursor.next(function loop (err, data) {
-    console.log('next', err, data)
     if (err) return cb(err)
     if (!data) return done()
 
